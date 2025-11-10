@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     font-family: "Red Hat Text", sans-serif;
+}
+
+.container{
+    text-align: center;
+    color: #333;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1627593865742-649238e55721?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1172');
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+a{
+    display: inline-block;
+    padding: 16px 56px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+.second{
+    background-image: url('https://images.unsplash.com/photo-1518623380242-d992d3c57b37?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1112');
+    background-attachment:fixed ;
+    height: 100vh;
+    flex-direction: row;
+    gap: 26px;
+}
+.item{
+    display: flex;
+    max-width: 320px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+    padding: 20px;
+
+
+    img{
+        width: 100%;
+        height: 200px;
+    }
+
+    h3{
+        font-weight: 700;
+        font-size: 26px;
+        margin-top: 16px;
+    }
+
+    p{
+        margin-top: 24px;
+        line-height: 24px;
+        padding: 16px;
+        margin-bottom: 24px;
+    }
+}
+
+.third{
+    background-image: url('https://images.unsplash.com/photo-1581259022467-e26c3f5a5f14?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2014');
+    background-attachment: fixed;
+    height: 100vh;
+
+    .content{
+        background-color: rgba(255,255,255,0.9);
+        padding: 32px;
+        border-radius: 16px;
+        max-width: 600px;
+
+        h2{
+            font-weight: 700;
+            font-size: 40px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        p{
+            margin-bottom: 24px;
+            line-height: 24px;
+            padding: 16px;
+        }
+    }
+}
